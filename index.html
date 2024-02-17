@@ -1,24 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Search Bar Example</title>
-<style>
-  .search-bar {
-    border: 1px solid #ccc; /* Default border color */
-    padding: 8px;
-     /* Add transition for smooth effect */
-  }
-
-  .search-bar.clicked {
-    border-color: blue; /* Change border color when focused */
-  }
-</style>
+    <title>youtube-clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/general.css">
+<link rel="stylesheet" href="styles/header.css">
+<link rel="stylesheet" href="styles/video.css">
+<link rel="stylesheet" href="styles/sidebar.css">
 </head>
 <body>
+    <header class="header">
+        <div class="leftsection">
+            <img class="menu" src="icon.svg">
+            <img class="youtubelogo" src="youtubelogo.svg">
+        </div>
+        <div class="middlesection">
+            <input  class="searchbar" type="text" placeholder="Search">
+            <button class="searchlogo"><img  class="searchlogo1" src="search.svg"></button>
+            <button class="voicelogo"><img  class="voicelogo1" src="voice-search-icon.svg"></button>
+        </div>
+        <div class="rightsection">
+            <img class="uploadicon" src="upload (1).svg">
+            <img  class="youtubeapps" src="youtube-apps.svg">
+            <img  class="notification" src="notifications.svg">
+            <div class="count">3</div>
+            <img class="account"  src="my-channel.jpeg">
+        </div>
+    </header>
+    <nav class="side">
+         <div class="sidebaricon">
+            <img class="home" src="home.svg">
+            <div class="sideiconname">Home</div>
+         </div>
+         <div class="sidebaricon">
+            <img class="home" src="explore.svg">
+            <div class="sideiconname">Explore</div>
+         </div>
+         <div class="sidebaricon">
+            <img class="home" src="subscriptions.svg">
+            <div class="sideiconname">Subscriptions</div>
+         </div>
+         <div class="sidebaricon">
+            <img class="home" src="originals.svg">
+            <div class="sideiconname">Originals</div>
+         </div>
+         <div class="sidebaricon">
+            <img class="home" src="youtube-music.svg">
+            <div class="sideiconname">YoutubeMusic</div>
+         </div>
+         <div class="sidebaricon">
+            <img class="home" src="library.svg">
+            <div class="sideiconname">Library</div>
+         </div>
 
-<input type="text" class="search-bar" placeholder="Search...">
-
+    </nav>
+    <main>
+        <div class="video-info-grid">
+            <div class="video-preview">
+                <div class="video-picture1">
+                    <img src="heeriye.webp" class="video-picture">
+                    <div class="timing">5.00</div>
+                </div>
+                <div class="video-info-grid1">
+                    <div class="channel-picture1">
+                        <img src="unnamed (1).jpg" class="channel-picture">
+                    </div>
+                    <div class="video-info">
+                    <p class="video-name">Heeriye (Official Video) Jasleen Royal ft Arijit Singh| Dulquer Salmaan| Aditya Sharma |Taani Tanvir</p>
+                    <p class="video-author">SonyMusicIndia</p>
+                    <p class="video-stats">3.4M views &#183; 1month ago</p>  
+                    </div> 
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="video-picture1">
+                    <img src="heeriye.webp" class="video-picture">
+                    <div class="timing">5.00</div>
+                </div>
+                <div class="video-info-grid1">
+                    <div class="channel-picture1">
+                        <img src="unnamed (1).jpg" class="channel-picture">
+                    </div>
+                    <div class="video-info">
+                    <p class="video-name">Heeriye (Official Video) Jasleen Royal ft Arijit Singh| Dulquer Salmaan| Aditya Sharma |Taani Tanvir</p>
+                    <p class="video-author">SonyMusicIndia</p>
+                    <p class="video-stats">3.4M views &#183; 1month ago</p>  
+                    </div> 
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="video-picture1">
+                    <img src="heeriye.webp" class="video-picture">
+                    <div class="timing">5.00</div>
+                </div>
+                <div class="video-info-grid1">
+                    <div class="channel-picture1">
+                        <img src="unnamed (1).jpg" class="channel-picture">
+                    </div>
+                    <div class="video-info">
+                    <p class="video-name">Heeriye (Official Video) Jasleen Royal ft Arijit Singh| Dulquer Salmaan| Aditya Sharma |Taani Tanvir</p>
+                    <p class="video-author">SonyMusicIndia</p>
+                    <p class="video-stats">3.4M views &#183; 1month ago</p>  
+                    </div> 
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="video-picture1">
+                    <img src="heeriye.webp" class="video-picture">
+                    <div class="timing">5.00</div>
+                </div>
+                <div class="video-info-grid1">
+                    <div class="channel-picture1">
+                        <img src="unnamed (1).jpg" class="channel-picture">
+                    </div>
+                    <div class="video-info">
+                    <p class="video-name">Heeriye (Official Video) Jasleen Royal ft Arijit Singh| Dulquer Salmaan| Aditya Sharma |Taani Tanvir</p>
+                    <p class="video-author">SonyMusicIndia</p>
+                    <p class="video-stats">3.4M views &#183; 1month ago</p>  
+                    </div> 
+                </div>
+            </div> <div class="video-preview">
+                <div class="video-picture1">
+                    <img src="heeriye.webp" class="video-picture">
+                    <div class="timing">5.00</div>
+                </div>
+                <div class="video-info-grid1">
+                    <div class="channel-picture1">
+                        <img src="unnamed (1).jpg" class="channel-picture">
+                    </div>
+                    <div class="video-info">
+                    <p class="video-name">Heeriye (Official Video) Jasleen Royal ft Arijit Singh| Dulquer Salmaan| Aditya Sharma |Taani Tanvir</p>
+                    <p class="video-author">SonyMusicIndia</p>
+                    <p class="video-stats">3.4M views &#183; 1month ago</p>  
+                    </div> 
+                </div>
+            </div> 
+            <div class="video-preview">
+                <div class="video-picture1">
+                    <img src="heeriye.webp" class="video-picture">
+                    <div class="timing">5.00</div>
+                </div>
+                <div class="video-info-grid1">
+                    <div class="channel-picture1">
+                        <img src="unnamed (1).jpg" class="channel-picture">
+                    </div>
+                    <div class="video-info">
+                    <p class="video-name">Heeriye (Official Video) Jasleen Royal ft Arijit Singh| Dulquer Salmaan| Aditya Sharma |Taani Tanvir</p>
+                    <p class="video-author">SonyMusicIndia</p>
+                    <p class="video-stats">3.4M views &#183; 1month ago</p>  
+                    </div> 
+                </div>
+            </div> 
+            <div class="video-preview">
+                <div class="video-picture1">
+                    <img src="heeriye.webp" class="video-picture">
+                    <div class="timing">5.00</div>
+                </div>
+                <div class="video-info-grid1">
+                    <div class="channel-picture1">
+                        <img src="unnamed (1).jpg" class="channel-picture">
+                    </div>
+                    <div class="video-info">
+                    <p class="video-name">Heeriye (Official Video) Jasleen Royal ft Arijit Singh| Dulquer Salmaan| Aditya Sharma |Taani Tanvir</p>
+                    <p class="video-author">SonyMusicIndia</p>
+                    <p class="video-stats">3.4M views &#183; 1month ago</p>  
+                    </div> 
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="video-picture1">
+                    <img src="heeriye.webp" class="video-picture">
+                    <div class="timing">5.00</div>
+                </div>
+                <div   class="video-info-grid1">
+                    <div class="channel-picture1">
+                        <img src="unnamed (1).jpg" class="channel-picture">
+                    </div>
+                    <div class="video-info">
+                    <p class="video-name">Heeriye (Official Video) Jasleen Royal ft Arijit Singh| Dulquer Salmaan| Aditya Sharma |Taani Tanvir</p>
+                    <p class="video-author">SonyMusicIndia</p>
+                    <p class="video-stats">3.4M views &#183; 1month ago</p>  
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </main>   
 </body>
 </html>
