@@ -1,0 +1,29 @@
+.side{
+    position: fixed;
+    background-color: white;
+    top:63px;
+    left:0%;
+    bottom: 0%;
+    width: 85 px;
+}
+.sidebaricon{
+    height:100px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+}
+.sidebaricon:hover{
+    background-color: #ebd1d1;
+}
+.home{
+    height:40px;
+}
+.sideiconname{
+    font-family:Roboto,Arial;
+    font-weight: 400;
+    font-size: 12px;
+}
